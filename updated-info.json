@@ -1,0 +1,767 @@
+[
+    {
+        "name": "America Samoa Community College",
+        "schoolType": "Community College",
+        "country": "America Samoa",
+        "state": "",
+        "url": "https://www.amsamoa.edu/",
+        "images": "https://www.amsamoa.edu/images/education.jpg",
+        "about": "American Samoa Community College (ASCC) is a public community college located in the village of Mapusaga, in the eastern part of Tutuila Island in American Samoa. It offers a range of associate degree programs as well as vocational and technical training."
+    },
+    {
+        "name": "Wayland Baptist University",
+        "schoolType": "Private University",
+        "country": "United states",
+        "state": "Texas",
+        "url": "https://www.wbu.edu/",
+        "images": "",
+        "about": "Wayland Baptist University is a private Christian university located in Plainview, Texas, with additional campuses across Texas and in other states. It offers a variety of undergraduate and graduate programs in fields such as education, business, religion, and health sciences."
+    },
+    {
+        "name": "Australian Catholic University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "",
+        "url": "https://www.acu.edu.au/",
+        "images": "",
+        "about": "Australian Catholic University (ACU) is a public university in Australia that is affiliated with the Catholic Church. It has multiple campuses across several states and territories in Australia. ACU offers a wide range of undergraduate, postgraduate, and research programs across various disciplines, including education, health sciences, theology, arts and humanities, business, and law."
+    },
+    {
+        "name": "Australian National University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "",
+        "url": "https://www.anu.edu.au/",
+        "images": "",
+        "about": "The Australian National University (ANU) is a public research university located in Canberra, the capital city of Australia. It is one of the top-ranked universities in Australia and is renowned for its research contributions across various fields, including science, humanities, social sciences, engineering, and medicine. ANU offers a wide range of undergraduate and postgraduate programs and is particularly known for its strong emphasis on research and innovation."
+    },
+    {
+        "name": "Bond University",
+        "schoolType": "Private University",
+        "country": "Australia ",
+        "state": "Queensland",
+        "url": "https://bond.edu.au/",
+        "images": "",
+        "about": "Bond University is a private university located in Robina, Gold Coast, Queensland, Australia. It was established in 1987 and is recognized for its innovative approach to higher education. Bond University offers a range of undergraduate and postgraduate programs across various disciplines, including law, business, health sciences, humanities, and social sciences. It is known for its small class sizes, personalized approach to education, and state-of-the-art facilities."
+    },
+    {
+        "name": "Central Queensland University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Queensland",
+        "url": "https://www.cqu.edu.au/",
+        "images": "",
+        "about": "Central Queensland University (CQUniversity) is a public university located in Queensland, Australia. It has multiple campuses across Australia, including campuses in Rockhampton, Mackay, Gladstone, Bundaberg, Emerald, and Brisbane. CQUniversity offers a diverse range of undergraduate, postgraduate, and vocational education programs. It is known for its focus on providing accessible education to students from diverse backgrounds and its strong emphasis on industry partnerships and applied research."
+    },
+    {
+        "name": "Charles Darwin University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "",
+        "url": "https://www.cdu.edu.au/",
+        "images": "",
+        "about": "Charles Darwin University (CDU) is a public university located in Darwin, Northern Territory, Australia. It offers a wide range of undergraduate and postgraduate programs across various fields, including education, health sciences, business, law, engineering, and humanities. CDU is known for its strong focus on Indigenous education and research, as well as its commitment to regional development and sustainability."
+    },
+    {
+        "name": "Charles Sturt University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "New South Wales",
+        "url": "https://www.csu.edu.au/",
+        "images": "",
+        "about": "Charles Sturt University (CSU) is a public university based in New South Wales, Australia. It has multiple campuses across the state, including locations in Bathurst, Wagga Wagga, Albury-Wodonga, Dubbo, Orange, Port Macquarie, and Canberra (Australian Capital Territory). CSU offers a wide range of undergraduate and postgraduate programs in various disciplines, including education, business, health sciences, agriculture, environmental science, and humanities."
+    },
+    {
+        "name": "Curtin University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Western Australia",
+        "url": "https://www.curtin.edu.au/",
+        "images": "",
+        "about": "Curtin University is a public research university based in Perth, Western Australia. It is one of the largest universities in Australia, with additional campuses in other parts of Western Australia, as well as internationally in Singapore, Malaysia, Dubai, and Mauritius. Curtin University offers a wide range of undergraduate, postgraduate, and research programs across various disciplines, including engineering, business, health sciences, humanities, and science."
+    },
+    {
+        "name": "Deakin University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Victoria",
+        "url": "https://www.deakin.edu.au/",
+        "images": "",
+        "about": "Deakin University, based in Victoria, Australia, is a leading public university known for its innovative approach to education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, Deakin is committed to providing high-quality, accessible education. With campuses in Melbourne, Geelong, and Warrnambool, as well as a strong presence in online education, Deakin caters to students from diverse backgrounds. The university is recognized for its focus on industry partnerships, practical learning experiences, and global engagement."
+    },
+    {
+        "name": "Edith Cowan University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Western Australia",
+        "url": "https://www.ecu.edu.au/",
+        "images": "",
+        "about": "Edith Cowan University (ECU), located in Western Australia, is a vibrant and progressive public university known for its innovative programs and research. Offering a diverse range of undergraduate, postgraduate, and research opportunities, ECU focuses on preparing students for success in their chosen fields. With campuses in Perth, Bunbury, and Joondalup, ECU provides a supportive learning environment, fostering creativity, critical thinking, and practical skills. The university is committed to community engagement, industry partnerships, and driving positive societal change."
+    },
+    {
+        "name": "Federation University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Victoria",
+        "url": "https://www.federation.edu.au/",
+        "images": "",
+        "about": "Federation University, located in Victoria, Australia, is a dynamic public university dedicated to providing accessible, high-quality education. Offering a diverse range of undergraduate, postgraduate, and research programs, Federation University emphasizes hands-on learning experiences and industry connections. With campuses in Ballarat, Berwick, Gippsland, and Brisbane, the university caters to a wide range of students and fosters a supportive learning environment. Federation University is committed to excellence in teaching, research, and community engagement, empowering students to thrive in their chosen fields."
+    },
+    {
+        "name": "Flinders University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "South Australia",
+        "url": "https://www.flinders.edu.au/",
+        "images": "",
+        "about": "Flinders University, situated in South Australia, is a leading public university renowned for its innovative approach to education and research. Offering a diverse array of undergraduate, postgraduate, and research programs, Flinders is committed to fostering critical thinking, creativity, and practical skills among its students. With campuses in Adelaide and Bedford Park, Flinders provides a vibrant and supportive learning environment. The university is dedicated to making a positive impact through cutting-edge research, community engagement, and global partnerships."
+    },
+    {
+        "name": "Griffith University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Queensland",
+        "url": "https://www.griffith.edu.au/",
+        "images": "",
+        "about": "Griffith University, located in Queensland, Australia, is a leading public university recognized for its commitment to excellence in education and research. Offering a wide range of undergraduate, postgraduate, and research programs, Griffith focuses on providing innovative and industry-relevant learning experiences. With campuses in Brisbane, Gold Coast, and Logan, Griffith provides a dynamic and supportive environment for students to thrive. The university is dedicated to fostering creativity, critical thinking, and global engagement, shaping future leaders and contributing to positive societal change."
+    },
+    {
+        "name": "James Cook University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Queensland",
+        "url": "https://www.jcu.edu.au/",
+        "images": "",
+        "about": "James Cook University (JCU), situated in Queensland, Australia, is a renowned public university committed to excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, JCU specializes in fields such as marine science, tropical biology, and sustainable development. With campuses in Townsville, Cairns, and Singapore, JCU provides a unique learning environment focused on tropical and environmental studies. The university is dedicated to fostering innovation, global collaboration, and community engagement, preparing students to address pressing challenges facing the tropics and beyond."
+    },
+    {
+        "name": "La Trobe University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Victoria",
+        "url": "https://www.latrobe.edu.au/",
+        "images": "",
+        "about": "La Trobe University, located in Victoria, Australia, is a leading public university known for its commitment to excellence in education, research, and community engagement. Offering a wide range of undergraduate, postgraduate, and research programs, La Trobe provides students with opportunities to pursue their passions and make a difference in their chosen fields. With campuses in Melbourne, Bendigo, Albury-Wodonga, Mildura, and Shepparton, La Trobe offers a supportive and inclusive learning environment. The university is dedicated to fostering critical thinking, creativity, and global citizenship, empowering students to become future leaders and change-makers."
+    },
+    {
+        "name": "Macquarie University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "New South Wales",
+        "url": "https://www.mq.edu.au/",
+        "images": "",
+        "about": "Macquarie University is a prestigious public research university located in Sydney, Australia. It offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across various disciplines including arts, business, science, engineering, health sciences, education, law, and social sciences. Macquarie University is known for its research excellence and innovation, particularly in fields such as linguistics, psychology, finance, and environmental sciences. The university provides students with opportunities for interdisciplinary learning, practical experience, and global engagement. It is committed to academic excellence, diversity, and contributing to the advancement of knowledge and the well-being of society."
+    },
+    {
+        "name": "Monash University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Victoria",
+        "url": "https://www.monash.edu/",
+        "images": "",
+        "about": "Monash University, located in Victoria, Australia, is a prestigious public research university known for its global reputation for excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, Monash provides students with opportunities for academic and personal growth. With campuses in Melbourne, Malaysia, and South Africa, Monash offers a vibrant and inclusive learning environment. The university is dedicated to fostering innovation, creativity, and social responsibility, empowering students to become leaders and change-makers in their fields."
+    },
+    {
+        "name": "Murdoch University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Western Australia",
+        "url": "https://www.murdoch.edu.au/",
+        "images": "",
+        "about": "Murdoch University, situated in Western Australia, is a reputable public university recognized for its commitment to excellence in education, research, and community engagement. Offering a diverse range of undergraduate, postgraduate, and research programs, Murdoch provides students with opportunities to explore their interests and pursue their academic and career aspirations. With a focus on innovation, sustainability, and global citizenship, Murdoch prepares students to thrive in a rapidly changing world. The university's campus in Perth offers a supportive and inclusive learning environment, fostering creativity, critical thinking, and leadership skills among its students."
+    },
+    {
+        "name": "Queensland University of Technology",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Queensland",
+        "url": "https://www.qut.edu.au/",
+        "images": "",
+        "about": "Queensland University of Technology (QUT), located in Queensland, Australia, is a leading public university known for its focus on innovation and real-world impact. Offering a diverse range of undergraduate, postgraduate, and research programs, QUT provides students with opportunities to gain practical experience and industry connections. With campuses in Brisbane, QUT offers a dynamic and supportive learning environment, fostering creativity, critical thinking, and entrepreneurial spirit. The university is committed to making a positive societal impact through research, industry partnerships, and community engagement, preparing students to become future leaders and change-makers."
+    },
+    {
+        "name": "RMIT University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Victoria",
+        "url": "https://www.rmit.edu.au/",
+        "images": "",
+        "about": "RMIT University, situated in Melbourne, Australia, is a global university specializing in technology, design, and enterprise. Offering diverse undergraduate, postgraduate, and research programs, RMIT prepares students for success in their chosen fields. With a strong emphasis on innovation and practical learning experiences, the university fosters creativity, critical thinking, and industry connections. Committed to research, industry partnerships, and community engagement, RMIT aims to make a positive impact on society."
+    },
+    {
+        "name": "Southern Cross University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "New South Wales",
+        "url": "https://www.scu.edu.au/",
+        "images": "",
+        "about": "Southern Cross University, located in New South Wales, Australia, is a vibrant public university committed to excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, Southern Cross University prepares students for success in their chosen fields. With campuses in Lismore, Coffs Harbour, and Gold Coast, the university provides a supportive and inclusive learning environment. Known for its focus on sustainability, innovation, and community engagement, Southern Cross University empowers students to make a positive impact in the world."
+    },
+    {
+        "name": "Swinburne University of Technology",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Victoria",
+        "url": "https://www.swinburne.edu.au/",
+        "images": "",
+        "about": "Swinburne University of Technology, located in Victoria, Australia, is a leading public university known for its innovative approach to education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, Swinburne prepares students for success in their chosen fields. With campuses in Melbourne, Hawthorn, and Sarawak (Malaysia), the university provides a dynamic and inclusive learning environment. Renowned for its industry partnerships, Swinburne focuses on practical learning experiences and real-world applications. Committed to fostering creativity, critical thinking, and global citizenship, Swinburne empowers students to become future leaders and innovators."
+    },
+    {
+        "name": "Torrens University",
+        "schoolType": "Private University",
+        "country": "Australia ",
+        "state": "",
+        "url": "https://www.torrens.edu.au/",
+        "images": "",
+        "about": "Torrens University Australia is a private university with multiple campuses across Australia. Offering a diverse range of undergraduate, postgraduate, and research programs, Torrens University provides students with innovative learning experiences. With a focus on industry connections and practical skills, the university prepares students for success in their chosen careers. Torrens University is committed to fostering creativity, critical thinking, and global perspectives, empowering students to make meaningful contributions to society."
+    },
+    {
+        "name": "University of Adelaide",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "South Australia",
+        "url": "https://www.adelaide.edu.au/",
+        "images": "",
+        "about": "The University of Adelaide, located in South Australia, is a prestigious public university known for its commitment to excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, the university prepares students for success in their chosen fields. With a focus on innovation and practical learning experiences, the University of Adelaide fosters creativity, critical thinking, and industry connections. Committed to making a positive impact through research, industry partnerships, and community engagement, the university empowers students to become future leaders and change-makers."
+    },
+    {
+        "name": "University of Canberra",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Australian Capital Territory",
+        "url": "https://www.canberra.edu.au/",
+        "images": "",
+        "about": "The University of Canberra, located in the Australian Capital Territory, is a leading public university dedicated to excellence in education and research. Offering a wide range of undergraduate, postgraduate, and research programs, the university prepares students for success in their chosen fields. With a focus on innovation and practical learning experiences, the University of Canberra fosters creativity, critical thinking, and industry connections. Committed to making a positive impact through research, industry partnerships, and community engagement, the university empowers students to become future leaders and change-makers."
+    },
+    {
+        "name": "University of Melbourne",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Victoria",
+        "url": "https://www.unimelb.edu.au/",
+        "images": "",
+        "about": "The University of Melbourne, located in Victoria, Australia, is a prestigious public university renowned for its excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, the university prepares students for success in their chosen fields. With a focus on innovation and critical thinking, the University of Melbourne provides students with opportunities for interdisciplinary learning and industry engagement. Committed to making a positive impact through research, community engagement, and global partnerships, the university empowers students to become leaders and innovators in their fields."
+    },
+    {
+        "name": "University of New England",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "New South wales",
+        "url": "https://www.une.edu.au/",
+        "images": "",
+        "about": "he University of New England (UNE), situated in New South Wales, Australia, is a distinguished public university known for its excellence in education and research. Offering a diverse array of undergraduate, postgraduate, and research programs, UNE prepares students for success in their chosen fields. With a strong emphasis on innovation and practical learning experiences, the university fosters critical thinking, creativity, and industry connections. Committed to making a positive impact through research, community engagement, and global partnerships, UNE empowers students to become leaders and change-makers."
+    },
+    {
+        "name": "University of New South Wales",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "New South wales",
+        "url": "https://www.unsw.edu.au/",
+        "images": "",
+        "about": "The University of New South Wales (UNSW), located in New South Wales, Australia, is a prestigious public university renowned for its excellence in education and research. Offering a wide range of undergraduate, postgraduate, and research programs, UNSW prepares students for success in their chosen fields. With a focus on innovation and practical learning experiences, the university fosters critical thinking, creativity, and industry connections. Committed to making a positive impact through research, community engagement, and global partnerships, UNSW empowers students to become leaders and change-makers."
+    },
+    {
+        "name": "University of Newcastle",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "New South wales",
+        "url": "https://www.newcastle.edu.au/",
+        "images": "",
+        "about": "The University of Newcastle, located in New South Wales, Australia, is a respected public university known for its commitment to excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, the university prepares students for success in their chosen fields. With a focus on innovation and practical learning experiences, the University of Newcastle fosters critical thinking, creativity, and industry connections. Committed to making a positive impact through research, community engagement, and global partnerships, the university empowers students to become leaders and change-makers."
+    },
+    {
+        "name": "University of Notre Dame Australia",
+        "schoolType": "Private Catholic University",
+        "country": "Australia ",
+        "state": "New South wales",
+        "url": "https://www.notredame.edu.au/",
+        "images": "",
+        "about": "The University of Notre Dame Australia, a private Catholic university, has campuses in Western Australia and New South Wales. It offers a diverse range of undergraduate, postgraduate, and research programs, emphasizing values-based education. With a focus on academic excellence and social responsibility, Notre Dame prepares students to make meaningful contributions to their communities. Committed to fostering critical thinking, ethical leadership, and global citizenship, the university aims to empower students to lead fulfilling lives and create positive change."
+    },
+    {
+        "name": "University of Queensland",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Queensland",
+        "url": "https://www.uq.edu.au/",
+        "images": "",
+        "about": "The University of Queensland (UQ), located in Queensland, Australia, is a prestigious public research university known for its commitment to excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, UQ prepares students for success in their chosen fields. With a focus on innovation and practical learning experiences, the university fosters critical thinking, creativity, and industry connections. Committed to making a positive impact through research, community engagement, and global partnerships, UQ empowers students to become leaders and change-makers."
+    },
+    {
+        "name": "University of South Australia",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "South Australia",
+        "url": "https://www.unisa.edu.au/",
+        "images": "",
+        "about": "The University of South Australia (UniSA), located in South Australia, is a leading public university renowned for its commitment to excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, UniSA prepares students for success in their chosen fields. With a focus on innovation and practical learning experiences, the university fosters critical thinking, creativity, and industry connections. Committed to making a positive impact through research, community engagement, and industry partnerships, UniSA empowers students to become leaders and change-makers."
+    },
+    {
+        "name": "University of Southern Queensland",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Queensland",
+        "url": "https://www.usq.edu.au/",
+        "images": "",
+        "about": "The University of Southern Queensland (USQ), located in Queensland, Australia, is a respected public university known for its commitment to accessible education and research excellence. Offering a diverse range of undergraduate, postgraduate, and research programs, USQ prepares students for success in their chosen fields. With a focus on flexibility and practical learning experiences, the university fosters critical thinking, creativity, and industry connections. Committed to making a positive impact through research, industry partnerships, and community engagement, USQ empowers students to achieve their academic and career goals."
+    },
+    {
+        "name": "University of Sydney",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "New South wales",
+        "url": "https://www.sydney.edu.au/",
+        "images": "",
+        "about": "The University of Sydney, located in New South Wales, Australia, is a prestigious public research university known for its commitment to excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, the university prepares students for success in their chosen fields. With a focus on innovation and practical learning experiences, the University of Sydney fosters critical thinking, creativity, and industry connections. Committed to making a positive impact through research, community engagement, and global partnerships, the university empowers students to become leaders and change-makers."
+    },
+    {
+        "name": "University of Tasmania",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Tasmania",
+        "url": "https://www.utas.edu.au/",
+        "images": "",
+        "about": "The University of Tasmania (UTAS), located in Tasmania, Australia, is a respected public university known for its commitment to excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, UTAS prepares students for success in their chosen fields. With a focus on innovation and practical learning experiences, the university fosters critical thinking, creativity, and industry connections. Committed to making a positive impact through research, community engagement, and industry partnerships, UTAS empowers students to become leaders and change-makers."
+    },
+    {
+        "name": "University of Technology Sydney",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "New South wales",
+        "url": "https://www.uts.edu.au/",
+        "images": "",
+        "about": "The University of Technology Sydney (UTS), located in New South Wales, Australia, is a dynamic public university known for its innovative approach to education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, UTS prepares students for success in their chosen fields. With a focus on practical learning experiences and industry connections, the university fosters creativity, critical thinking, and entrepreneurship. Committed to making a positive impact through research, industry partnerships, and community engagement, UTS empowers students to become future leaders and change-makers."
+    },
+    {
+        "name": "University of the Sunshine Coast",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Queensland",
+        "url": "https://www.usc.edu.au/",
+        "images": "",
+        "about": "The University of the Sunshine Coast (USC), located in Queensland, Australia, is a vibrant public university known for its commitment to excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, USC prepares students for success in their chosen fields. With a focus on practical learning experiences and industry connections, the university fosters critical thinking, creativity, and innovation."
+    },
+    {
+        "name": "University of Western Australia",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Western Australia",
+        "url": "https://www.uwa.edu.au/",
+        "images": "",
+        "about": "The University of Western Australia (UWA), located in Western Australia, is a prestigious public university renowned for its commitment to excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, UWA prepares students for success in their chosen fields. With a focus on innovation and practical learning experiences, the university fosters critical thinking, creativity, and industry connections."
+    },
+    {
+        "name": "University of Wollongong",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "New South wales",
+        "url": "https://www.uow.edu.au/",
+        "images": "",
+        "about": "The University of Wollongong (UOW), located in New South Wales, Australia, is a leading public university renowned for its commitment to excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, UOW prepares students for success in their chosen fields. With a focus on innovation and practical learning experiences, the university fosters critical thinking, creativity, and industry connections."
+    },
+    {
+        "name": "Victoria University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "Victoria",
+        "url": "https://www.vu.edu.au/",
+        "images": "",
+        "about": "Victoria University (VU), located in Victoria, Australia, is a dynamic public university committed to providing accessible and innovative education. Offering a diverse range of undergraduate, postgraduate, and research programs, VU prepares students for success in their chosen fields. With a focus on industry-relevant skills and practical learning experiences, the university fosters critical thinking, creativity, and industry connections."
+    },
+    {
+        "name": "Western Sydney University",
+        "schoolType": "Public University",
+        "country": "Australia ",
+        "state": "New South wales",
+        "url": "https://www.westernsydney.edu.au/",
+        "images": "",
+        "about": "Western Sydney University (WSU), located in New South Wales, Australia, is a dynamic public university committed to excellence in education and research. Offering a diverse range of undergraduate, postgraduate, and research programs, WSU prepares students for success in their chosen fields. With a focus on innovation and practical learning experiences, the university fosters critical thinking, creativity, and industry connections. Committed to making a positive impact through research, community engagement, and social inclusion, WSU empowers students to become future leaders and change-makers."
+    },
+    {
+        "name": "Fiji National University (Suva)",
+        "schoolType": "Public University",
+        "country": "Fiji",
+        "state": "Central Division",
+        "url": "https://www.fnu.ac.fj/",
+        "images": "",
+        "about": "Fiji National University (FNU), located in Suva, Fiji, is the largest public university in the country. Offering a wide range of undergraduate, postgraduate, and vocational programs, FNU provides quality education and training to students from Fiji and around the world. With a focus on practical skills and industry relevance, the university prepares graduates to contribute effectively to Fiji's economy and society. Committed to fostering innovation and sustainable development, FNU plays a vital role in the education and advancement of Fiji's workforce."
+    },
+    {
+        "name": "University of Fiji (Lautoka)",
+        "schoolType": "Private University",
+        "country": "Fiji",
+        "state": "Western Division",
+        "url": "https://www.unifiji.ac.fj/",
+        "images": "",
+        "about": "The University of Fiji, located in Lautoka, Fiji, is a leading private university committed to providing quality education and research opportunities. Offering a diverse range of undergraduate, postgraduate, and professional programs, the university aims to empower students with knowledge and skills relevant to Fiji's socio-economic development. With a focus on academic excellence and community engagement, the University of Fiji prepares graduates to become ethical leaders and contribute positively to society."
+    },
+    {
+        "name": "University of the South Pacific (Suva)",
+        "schoolType": "Public University",
+        "country": "Fiji",
+        "state": "Central Division",
+        "url": "https://www.usp.ac.fj/",
+        "images": "",
+        "about": "The University of the South Pacific (USP), located in Suva, Fiji, is a renowned public university serving the Pacific region. With campuses across 12 Pacific Island countries, USP offers a wide range of undergraduate, postgraduate, and research programs, catering to the diverse needs of its students. Committed to excellence in education, research, and regional development, USP provides opportunities for students to engage in academic and cultural exchange, fostering a sense of Pacific identity and global citizenship."
+    },
+    {
+        "name": "University of French Polynesia",
+        "schoolType": "Public University",
+        "country": "French Polynesia",
+        "state": "Tahiti",
+        "url": "https://manoa.hawaii.edu/mix/partner-universities/ufp/",
+        "images": "",
+        "about": "The University of French Polynesia is the primary institution of higher education in French Polynesia, offering various undergraduate and graduate programs. As a public university, UPF is dedicated to providing quality education and fostering research and innovation in the region. While specific details about the university's programs and offerings may vary, UPF likely plays a crucial role in supporting the educational and intellectual development of the local population."
+    },
+    {
+        "name": "University of Guam",
+        "schoolType": "Public University",
+        "country": "Guam",
+        "state": "Mangilao",
+        "url": "https://www.uog.edu/",
+        "images": "",
+        "about": "The University of Guam is a public university located in the United states territory of Guam. It offers a variety of undergraduate and graduate programs across different disciplines. The university is dedicated to providing quality education and research opportunities to its students, fostering critical thinking, creativity, and cultural awareness. As a hub for academic and cultural exchange in the region, the University of Guam plays a significant role in promoting higher education and socio-economic development in Guam and the surrounding Pacific Islands."
+    },
+    {
+        "name": "Kiribati Teachers College – KTC",
+        "schoolType": "Teacher Training College",
+        "country": "Kiribati",
+        "state": "Bikenibeu, Tarawa",
+        "url": "https://ktc.edu.ki/",
+        "images": "",
+        "about": "Kiribati Teachers College (KTC) is a teacher training institution located in Bikenibeu, Tarawa, Kiribati. It provides pre-service and in-service training for educators in Kiribati, focusing on equipping them with the necessary knowledge and skills to teach effectively in Kiribati's educational system. KTC plays a crucial role in the professional development of teachers, contributing to the improvement of education quality and standards across the country."
+    },
+    {
+        "name": "Kiribati Institue of Technology",
+        "schoolType": "Technical Institute",
+        "country": "Kiribati",
+        "state": "Bikenibeu, Tarawa",
+        "url": "https://kit.edu.ki/",
+        "images": "",
+        "about": "Tarawa Technical Institute (TTI) is a technical and vocational training institution located in Bikenibeu, Tarawa, Kiribati. It offers a variety of technical and vocational programs designed to equip students with practical skills for employment and entrepreneurship. TTI focuses on providing hands-on training and industry-relevant education in areas such as construction, automotive engineering, electrical installation, hospitality, and business studies. By providing quality technical education and training, TTI contributes to the development of a skilled workforce and the socio-economic advancement of Kiribati."
+    },
+    {
+        "name": "College of Micronesia (FSM)",
+        "schoolType": "Public Community College",
+        "country": "Micronesia",
+        "state": "Palikir, Pohnpei",
+        "url": "https://www.comfsm.fm/",
+        "images": "",
+        "about": "The College of Micronesia-Federated states of Micronesia (COM-FSM) is a public community college located in Palikir, Pohnpei, Federated states of Micronesia. It offers a range of programs including associate degrees, vocational training, and workforce development courses. COM-FSM aims to provide accessible and affordable education to the people of Micronesia, focusing on preparing students for further education or entry into the workforce. The college also plays a vital role in promoting cultural preservation and sustainable development in the region."
+    },
+    {
+        "name": "University of New Caledonia",
+        "schoolType": "Public University",
+        "country": "New Caledonia",
+        "state": "Nouméa",
+        "url": "https://www.univ-nc.nc/",
+        "images": "",
+        "about": "The University of New Caledonia (UNC) is a public university located in Nouméa, New Caledonia, a French territory in the Pacific. UNC offers undergraduate and postgraduate programs in various fields such as humanities, sciences, law, economics, management, and social sciences. As the only public university in New Caledonia, UNC plays a crucial role in providing higher education opportunities to the local population and contributing to the socio-economic development of the territory. The university also emphasizes research activities, particularly in areas relevant to New Caledonia's unique environment and cultural diversity."
+    },
+    {
+        "name": "Ara Institute of Canterbury",
+        "schoolType": "Public Tertiary Education Institute",
+        "country": "New Zealand",
+        "state": "Christchurch, Canterbury",
+        "url": "https://www.ara.ac.nz/",
+        "images": "",
+        "about": "Ara Institute of Canterbury is a public tertiary education institute located in Christchurch, Canterbury, New Zealand. Formerly known as CPIT (Christchurch Polytechnic Institute of Technology), Ara offers a wide range of programs including certificates, diplomas, degrees, and postgraduate qualifications across various disciplines such as arts, business, communication, trades, engineering, health, hospitality, information technology, and science. The institute is known for its practical, industry-focused approach to education, and its commitment to equipping students with the skills and knowledge necessary for success in their chosen careers."
+    },
+    {
+        "name": "Auckland Institute of Studies",
+        "schoolType": "Private Tertiary Education Institution",
+        "country": "New Zealand",
+        "state": "Auckland",
+        "url": "https://www.ais.ac.nz/",
+        "images": "",
+        "about": "Auckland Institute of Studies (AIS) is a private tertiary education institution located in Auckland, New Zealand. It offers a wide range of undergraduate and postgraduate programs in various disciplines including business, information technology, tourism management, hospitality management, English language studies, and more. AIS is known for its multicultural environment, quality education, and strong focus on preparing students for success in their academic and professional careers. The institute also provides opportunities for students to gain practical experience through internships and industry placements."
+    },
+    {
+        "name": "Auckland University of Technology",
+        "schoolType": "Public University",
+        "country": "New Zealand",
+        "state": "Auckland",
+        "url": "https://www.aut.ac.nz/",
+        "images": "",
+        "about": "Auckland University of Technology (AUT) is a public university located in Auckland, New Zealand. AUT offers a wide range of undergraduate and postgraduate programs across various fields including art and design, business, communication studies, computer and mathematical sciences, education, engineering, health sciences, hospitality and tourism, law, science, social sciences, and more. Known for its focus on practical, hands-on learning and industry connections, AUT prepares students for successful careers in their chosen fields. The university also emphasizes research and innovation, contributing to advancements in knowledge and the development of solutions to real-world problems."
+    },
+    {
+        "name": "Toi Ohomai Institute of Technology",
+        "schoolType": "Public Polytechnic",
+        "country": "New Zealand",
+        "state": "Tauranga and Rotorua, Bay of Plenty",
+        "url": "https://www.toiohomai.ac.nz/",
+        "images": "",
+        "about": "Toi Ohomai Institute of Technology is a public polytechnic institute formed through the merger of Bay of Plenty Polytechnic and Waiariki Institute of Technology. It has campuses in Tauranga and Rotorua, situated in the Bay of Plenty region of New Zealand. Toi Ohomai offers a wide range of programs including certificates, diplomas, degrees, and postgraduate qualifications in various fields such as business, computing, engineering, health, hospitality, trades, and more. The institute is known for its strong industry connections, practical learning experiences, and commitment to preparing students for success in their chosen careers."
+    },
+    {
+        "name": "Carey Baptist College (Auckland)",
+        "schoolType": "Private Christain College",
+        "country": "New Zealand",
+        "state": "Auckland",
+        "url": "https://www.carey.ac.nz/",
+        "images": "",
+        "about": "Carey Baptist College is a private Christian college located in Auckland, New Zealand. It offers a range of theological and ministry-related programs, including diplomas, degrees, and postgraduate qualifications. The college is affiliated with the Baptist Churches of New Zealand and is committed to providing quality theological education and training for individuals interested in Christian ministry, leadership, and service. Carey Baptist College emphasizes academic excellence, spiritual formation, and practical ministry experience, preparing students for various roles within the church and wider community."
+    },
+    {
+        "name": "Crown Institute of Studies (Auckland)",
+        "schoolType": "Private Tertiary Education Institute",
+        "country": "New Zealand",
+        "state": "Auckland",
+        "url": "https://www.crown.ac.nz/",
+        "images": "",
+        "about": "Crown Institute of Studies is a private tertiary education institute located in Auckland, New Zealand. It offers a range of vocational courses and qualifications in areas such as hospitality, travel and tourism, business, and English language studies. The institute is known for its practical, hands-on approach to learning and its industry-relevant programs designed to prepare students for employment in their chosen fields. Crown Institute of Studies emphasizes small class sizes, personalized attention, and supportive learning environments to help students achieve their academic and career goals."
+    },
+    {
+        "name": "Eastern Institute of Technology",
+        "schoolType": "Public tertiary Education Institute",
+        "country": "New Zealand",
+        "state": "Auckland",
+        "url": "https://www.eit.ac.nz/",
+        "images": "",
+        "about": "Eastern Institute of Technology (EIT) is a public tertiary education institute with campuses located in Hawke's Bay, Tairāwhiti/Gisborne, and Auckland, New Zealand. EIT offers a wide range of programs including certificates, diplomas, degrees, and postgraduate qualifications across various fields such as applied science, business, computing, creative arts, education, health sciences, hospitality, and trades. The institute is known for its practical, hands-on approach to learning, industry connections, and supportive learning environments. EIT aims to provide quality education and training opportunities to students from diverse backgrounds, preparing them for successful careers and lifelong learning."
+    },
+    {
+        "name": "Laidlaw College",
+        "schoolType": "Private Christain College",
+        "country": "New Zealand",
+        "state": "Auckland",
+        "url": "https://www.laidlaw.ac.nz/",
+        "images": "",
+        "about": "Laidlaw College is a private Christian college with campuses in Auckland, Christchurch, and Manawatu, New Zealand. It offers a range of undergraduate and postgraduate programs in theology, ministry, counseling, education, and leadership. Laidlaw College is committed to providing quality theological education and training that integrates academic rigor with practical experience and spiritual formation. The college aims to equip students with the knowledge, skills, and values necessary for effective leadership and service in various ministry and community contexts."
+    },
+    {
+        "name": "Lincoln University",
+        "schoolType": "Public University",
+        "country": "New Zealand",
+        "state": "Lincoln, Canterbury",
+        "url": "https://www.lincoln.ac.nz/",
+        "images": "",
+        "about": "Lincoln University is a public university located in Lincoln, Canterbury, New Zealand. It specializes in land-based disciplines such as agriculture, horticulture, environmental science, viticulture, and food science, along with related areas such as business, landscape architecture, and tourism. Lincoln University is known for its research and education in sustainable land management and agricultural innovation. The university offers undergraduate and postgraduate programs, as well as research opportunities, focusing on preparing students for careers in industries related to land and the environment."
+    },
+    {
+        "name": "Manukau Institute of Technology",
+        "schoolType": "Public Institue of Technology",
+        "country": "New Zealand",
+        "state": "Auckland",
+        "url": "https://www.manukau.ac.nz/",
+        "images": "",
+        "about": "Manukau Institute of Technology (MIT) is a public institute of technology located in Manukau City, Auckland, New Zealand. It offers a wide range of programs including certificates, diplomas, degrees, and postgraduate qualifications across various disciplines such as business, information technology, engineering, health sciences, social sciences, creative arts, and trades. MIT is known for its practical, hands-on approach to learning and its strong connections with industry, providing students with opportunities for real-world experience and employment."
+    },
+    {
+        "name": "Massey University",
+        "schoolType": "Public University",
+        "country": "New Zealand",
+        "state": "Auckland",
+        "url": "https://www.massey.ac.nz/",
+        "images": "",
+        "about": "Massey University is a public university based in New Zealand with campuses in Auckland, Palmerston North, and Wellington, as well as offering distance learning programs. It offers a wide range of undergraduate and postgraduate programs across various disciplines such as business, humanities and social sciences, creative arts, sciences, engineering, health, and education. Massey University is known for its innovative teaching and research, particularly in agriculture, veterinary science, food technology, and design. The university places a strong emphasis on practical learning experiences and industry connections, preparing students for successful careers in their chosen fields."
+    },
+    {
+        "name": "Nelson Marlborough Institute of Technology",
+        "schoolType": "Public Institute of Technology and Polytechnic (ITP)",
+        "country": "New Zealand",
+        "state": "Nelson and Marlborough regions",
+        "url": "https://www.nmit.ac.nz/",
+        "images": "",
+        "about": "Nelson Marlborough Institute of Technology (NMIT) is a public Institute of Technology and Polytechnic (ITP) located in the Nelson and Marlborough regions of New Zealand. It offers a wide range of vocational and applied programs, including certificates, diplomas, degrees, and postgraduate qualifications, across various fields such as arts and media, business, computing, health, hospitality, trades, and viticulture. NMIT is known for its practical, hands-on approach to learning and its strong connections with industry, providing students with opportunities for real-world experience and employment."
+    },
+    {
+        "name": "Northland Polytechnic",
+        "schoolType": "Public Institute of Technology and Polytechnic (ITP)",
+        "country": "New Zealand",
+        "state": "Whangarei, Northland",
+        "url": "https://www.northtec.ac.nz/",
+        "images": "",
+        "about": "Northland Polytechnic, is a public Institute of Technology and Polytechnic (ITP) located in Whangarei, Northland, New Zealand. It offers a diverse range of vocational and applied programs including certificates, diplomas, degrees, and postgraduate qualifications across various fields such as business, computing, creative arts, health, hospitality, trades, and primary industries."
+    },
+    {
+        "name": "Otago Polytechnic",
+        "schoolType": "Public Institute of Technology and Polytechnic (ITP)",
+        "country": "New Zealand",
+        "state": "Dunedin, Otago",
+        "url": "https://www.op.ac.nz/",
+        "images": "",
+        "about": "Otago Polytechnic is a public Institute of Technology and Polytechnic (ITP) located in Dunedin, Otago, New Zealand. It offers a wide range of vocational and applied programs including certificates, diplomas, degrees, and postgraduate qualifications across various fields such as business, design, engineering, health, hospitality, information technology, social services, and sustainable practice. Otago Polytechnic is known for its innovative and industry-relevant approach to education, emphasizing practical learning experiences, hands-on projects, and real-world connections"
+    },
+    {
+        "name": "Southern Institute of Technology (SIT)",
+        "schoolType": "Public Institute of Technology and Polytechnic (ITP)",
+        "country": "New Zealand",
+        "state": "Invercargill, Southland",
+        "url": "https://www.sit.ac.nz/",
+        "images": "",
+        "about": "SIT is known for its practical, hands-on approach to learning and its strong emphasis on industry connections and real-world experience. The institute offers flexible learning options including on-campus, online, and blended delivery to accommodate the needs of students. SIT is committed to providing high-quality education that prepares graduates for successful careers and contributes to the economic and social"
+    },
+    {
+        "name": "Tai Poutini Polytechnic",
+        "schoolType": "Public Institute of Technology and Polytechnic (ITP)",
+        "country": "New Zealand",
+        "state": "West Coast, South Island",
+        "url": "https://tpp.ac.nz/",
+        "images": "",
+        "about": "Tai Poutini Polytechnic is a public Institute of Technology and Polytechnic (ITP) located on the West Coast of the South Island of New Zealand. It offers a diverse range of vocational and applied programs including certificates, diplomas, and degrees across various fields such as business, computing, construction, engineering, health, outdoor education, and sustainable practices."
+    },
+    {
+        "name": "Western Institute of Technology at Taranaki (WITT)",
+        "schoolType": "Public Institute of Technology and Polytechnic (ITP)",
+        "country": "New Zealand",
+        "state": "New Plymouth, Taranaki",
+        "url": "https://www.witt.ac.nz/",
+        "images": "",
+        "about": "The Western Institute of Technology at Taranaki (WITT) is a public Institute of Technology and Polytechnic (ITP) located in New Plymouth, Taranaki, New Zealand. It offers a wide range of vocational and applied programs including certificates, diplomas, degrees, and postgraduate qualifications across various fields such as business, health and nursing, hospitality, trades, computing, and creative arts. WITT is known for its practical, hands-on approach to learning, and its focus on providing students with the skills and knowledge needed for success in their chosen careers."
+    },
+    {
+        "name": "The Open Polytechnic of New Zealand",
+        "schoolType": "Public Polytechnic",
+        "country": "New Zealand",
+        "state": "Lower Hutt, Wellington",
+        "url": "https://www.openpolytechnic.ac.nz/",
+        "images": "",
+        "about": "The Open Polytechnic of New Zealand is a public polytechnic located in Lower Hutt, Wellington, New Zealand. It specializes in distance and online learning, offering a wide range of certificate, diploma, degree, and postgraduate programs across various fields such as business, management, accounting, early childhood education, information technology, engineering, and health. The Open Polytechnic is known for its flexible study options, allowing students to balance their studies with work and other commitments."
+    },
+    {
+        "name": "The University of Auckland",
+        "schoolType": "Public University",
+        "country": "New Zealand",
+        "state": "Auckland",
+        "url": "https://www.auckland.ac.nz/",
+        "images": "",
+        "about": "The University of Auckland is a public research university located in Auckland, New Zealand. It is the largest and highest-ranked university in the country, offering a comprehensive range of undergraduate, postgraduate, and doctoral programs across various disciplines including arts, business, science, engineering, health sciences, education, law, and creative arts. The University of Auckland is renowned for its research excellence and innovation, with a strong focus on contributing to knowledge creation and addressing real-world challenges. It is committed to providing a high-quality learning experience, fostering critical thinking, and preparing graduates to succeed in their chosen fields."
+    },
+    {
+        "name": "University of Waikato School of Education",
+        "schoolType": "Public University",
+        "country": "New Zealand",
+        "state": "Hamilton, Waikato",
+        "url": "https://education.waikato.ac.nz/",
+        "images": "",
+        "about": "The University of Waikato School of Education is part of the University of Waikato located in Hamilton, Waikato, New Zealand. The School of Education offers a wide range of undergraduate and postgraduate programs in education, including teaching, leadership, and research. These programs cover various areas such as early childhood education, primary education, secondary education, special education, and educational leadership."
+    },
+    {
+        "name": "The University of waikato",
+        "schoolType": "Public University",
+        "country": "New Zealand",
+        "state": "Hamilton, Waikato",
+        "url": "https://www.waikato.ac.nz/",
+        "images": "",
+        "about": "The University of Waikato is a public research university located in Hamilton, Waikato, New Zealand. It offers a comprehensive range of undergraduate, postgraduate, and doctoral programs across various disciplines including arts, business, science, engineering, education, law, social sciences, computing, and health. The University of Waikato is known for its research-led teaching, innovative approach to education, and commitment to excellence."
+    },
+    {
+        "name": "Universal College of Learning (UCOL)",
+        "schoolType": "Public Institute of Technology and Polytechnic (ITP)",
+        "country": "New Zealand",
+        "state": "Palmerston North",
+        "url": "https://www.ucol.ac.nz/",
+        "images": "",
+        "about": "The Universal College of Learning (UCOL) is a public Institute of Technology and Polytechnic (ITP) with campuses located in Palmerston North, Whanganui, Masterton, and Levin, New Zealand. It offers a wide range of vocational and applied programs including certificates, diplomas, degrees, and postgraduate qualifications across various fields such as business, computing, construction, creative industries, healthcare, hospitality, trades, and primary industries. UCOL is known for its practical, hands-on approach to learning and its strong connections with industry, providing students with opportunities for real-world experience and employment."
+    },
+    {
+        "name": "UNITEC Institute of Technology",
+        "schoolType": "Public Institute of Technology and Polytechnic (ITP)",
+        "country": "New Zealand",
+        "state": "Auckland",
+        "url": "https://www.unitec.ac.nz/",
+        "images": "",
+        "about": "UNITEC Institute of Technology is a public tertiary education institute located in Auckland, New Zealand. It offers a wide range of programs including certificates, diplomas, degrees, and postgraduate qualifications across various fields such as arts, business, computing, construction, engineering, health, performing arts, and trades. UNITEC is known for its practical, hands-on approach to learning and its strong industry connections, providing students with opportunities for real-world experience and employment. The institute is committed to providing high-quality education that prepares graduates for successful careers and contributes to the economic and social development of the region."
+    },
+    {
+        "name": "University of canterbury",
+        "schoolType": "Public University",
+        "country": "New Zealand",
+        "state": "Christchurch, Canterbury",
+        "url": "https://www.canterbury.ac.nz/",
+        "images": "",
+        "about": "The University of Canterbury is a prestigious public research university located in Christchurch, Canterbury, New Zealand. It offers a wide range of undergraduate, postgraduate, and doctoral programs across various disciplines including arts, business, engineering, law, health sciences, science, and education. The University of Canterbury is renowned for its research excellence and innovation, particularly in fields such as earthquake engineering, astronomy, Antarctic studies, and forestry. It provides students with opportunities for interdisciplinary learning, practical experience, and global engagement."
+    },
+    {
+        "name": "University of Otago",
+        "schoolType": "Public University",
+        "country": "New Zealand",
+        "state": "Dunedin, Otago",
+        "url": "https://www.otago.ac.nz/",
+        "images": "",
+        "about": "The University of Otago is a prestigious public research university located in Dunedin, Otago, New Zealand. It offers a wide range of undergraduate, postgraduate, and doctoral programs across various disciplines including arts, business, health sciences, humanities, sciences, and social sciences. The University of Otago is renowned for its research excellence and innovation, particularly in areas such as biomedical sciences, health sciences, humanities, and natural sciences. It provides students with opportunities for interdisciplinary learning, practical experience, and global engagement."
+    },
+    {
+        "name": "Victoria University of Wellington",
+        "schoolType": "Public University",
+        "country": "New Zealand",
+        "state": "Wellington",
+        "url": "https://www.wgtn.ac.nz/",
+        "images": "",
+        "about": "Victoria University of Wellington is a prestigious public research university located in Wellington, New Zealand. It offers a wide range of undergraduate, postgraduate, and doctoral programs across various disciplines including arts, business, education, engineering, law, health, humanities, sciences, and social sciences. The university is known for its research excellence and innovation, particularly in areas such as public policy, international relations, creative writing, and environmental studies."
+    },
+    {
+        "name": "Waikato Institute of Technology (Wintec)",
+        "schoolType": "Public Institue of Technology and Polytecnic",
+        "country": "New Zealand",
+        "state": "Hamilton, Waikato",
+        "url": "https://www.wintec.ac.nz/",
+        "images": "",
+        "about": "Waikato Institute of Technology (Wintec) is a public Institute of Technology and Polytechnic (ITP) located in Hamilton, Waikato, New Zealand. It offers a wide range of vocational and applied programs including certificates, diplomas, degrees, and postgraduate qualifications across various fields such as business, computing, creative industries, engineering, health, social sciences, trades, and primary industries. Wintec is known for its practical, industry-focused approach to learning and its strong connections with employers, providing students with opportunities for real-world experience and employment."
+    },
+    {
+        "name": "Victoria University of Wellington Faculty of Education",
+        "schoolType": "Public University",
+        "country": "New Zealand",
+        "state": "Wellington",
+        "url": "https://www.wgtn.ac.nz/education",
+        "images": "",
+        "about": "The Faculty of Education at Victoria University of Wellington offers a range of undergraduate and postgraduate programs in education. These programs cover various areas such as teaching, educational leadership, policy, and research. The Faculty is committed to excellence in teaching, research, and community engagement, preparing graduates to make a positive impact in educational settings and contribute to the development of the field of education. With its location in Wellington, the capital city of New Zealand, students benefit from access to a vibrant academic and cultural environment."
+    },
+    {
+        "name": "Wellington Institute of Technology",
+        "schoolType": "Public Institute of Technology and Polytechnic (ITP)",
+        "country": "New Zealand",
+        "state": "Wellington",
+        "url": "https://www.weltec.ac.nz/",
+        "images": "",
+        "about": "Wellington Institute of Technology (WelTec) is a public Institute of Technology and Polytechnic (ITP) located in Wellington, New Zealand. It offers a wide range of vocational and applied programs including certificates, diplomas, degrees, and postgraduate qualifications across various fields such as business, engineering, construction, creative technologies, health and social services, hospitality, trades, and information technology. WelTec is known for its industry-focused approach to learning and its strong connections with employers, providing students with opportunities for real-world experience and employment. The institute is committed to providing high-quality education that prepares graduates for successful careers and contributes to the economic and social development of the region."
+    },
+    {
+        "name": "Whitecliffe college of Art and Design (Auckland)",
+        "schoolType": "Private Art and Design College",
+        "country": "New Zealand",
+        "state": "Auckland",
+        "url": "https://www.whitecliffe.ac.nz/",
+        "images": "",
+        "about": "Whitecliffe College of Arts and Design is a prestigious private art and design college located in Auckland, New Zealand. It offers a range of undergraduate and postgraduate programs in various fields of art and design, including fine arts, graphic design, fashion design, photography, and digital media arts. The college is known for its innovative approach to arts education, fostering creativity, critical thinking, and practical skills development among its students. With a focus on individualized attention and small class sizes, Whitecliffe provides a supportive learning environment where students can explore their artistic interests and develop their unique creative voice."
+    },
+    {
+        "name": "Whitireia New Zealand",
+        "schoolType": "Public Institute of Technology and Polytechnic (ITP)",
+        "country": "New Zealand",
+        "state": "Auckland",
+        "url": "https://www.whitireia.ac.nz/",
+        "images": "",
+        "about": "Whitireia New Zealand is a public Institute of Technology and Polytechnic (ITP) with campuses located in Porirua, Wellington, Kapiti Coast, and Auckland. It offers a wide range of vocational and applied programs including certificates, diplomas, degrees, and postgraduate qualifications across various fields such as business, computing, creative arts, engineering, health, hospitality, trades, and social services. Whitireia is known for its practical, hands-on approach to learning and its strong connections with industry, providing students with opportunities for real-world experience and employment. The institute is committed to providing accessible and high-quality education that meets the needs of students and the community."
+    },
+    {
+        "name": "Royal Academy of Fine Arts (Det Jyske Kunstakademi)",
+        "schoolType": "Public Art Academy",
+        "country": "Denmark",
+        "state": "Aarhus",
+        "url": "https://kunstakademiet.dk/",
+        "images": "",
+        "about": "The Royal Academy of Fine Arts, also known as Det Jyske Kunstakademi, is a prestigious public art academy located in Aarhus, Denmark. It offers a range of undergraduate and postgraduate programs in fine arts, design, and related fields. The academy is known for its rigorous academic programs, experienced faculty, and supportive learning environment. Students have access to state-of-the-art facilities and opportunities for collaboration with local and international artists. Graduates of the Royal Academy of Fine Arts are well-equipped to pursue successful careers in the arts and design industries."
+    },
+    {
+        "name": "Northern Mariana College",
+        "schoolType": "Public Community College",
+        "country": "Northern Marina Island",
+        "state": "Saipan",
+        "url": "https://www.marianas.edu/",
+        "images": "",
+        "about": "Northern Marianas College is a public community college located in Saipan, the largest island in the Northern Mariana Islands. It offers a range of associate degree and certificate programs in various fields, including liberal arts, business administration, education, hospitality management, nursing, and more. NMC plays a crucial role in providing accessible higher education opportunities to the residents of the Northern Mariana Islands. The college is committed to academic excellence, student success, and community engagement."
+    },
+    {
+        "name": "Palau Community College",
+        "schoolType": "Public Community College",
+        "country": "Palau",
+        "state": "Koror",
+        "url": "https://pcc.palau.edu/",
+        "images": "",
+        "about": "Palau Community College is a public community college located in Koror, Palau. It offers a variety of associate degree and certificate programs in fields such as liberal arts, education, business, nursing, technology, and more. PCC plays a crucial role in providing accessible higher education opportunities to the residents of Palau. The college is committed to academic excellence, student success, and community development."
+    }
+]

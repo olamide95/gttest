@@ -1,0 +1,25 @@
+export enum ApplicationStatus {
+    IN_PROGRESS = 'IN_PROGRESS',
+    COMPLETED = 'COMPLETED',
+}
+
+export enum StudentType {
+    REGULAR = 'REGULAR',
+    PART_TIME = 'PART_TIME',
+}
+
+export enum ApplicationCategory {
+    SCHOOL_APPLICATION = 'SCHOOL_APPLICATION',
+    VISA_APPLICATION = 'VISA_APPLICATION',
+}
+
+export enum SchoolApplicationDocumentType {
+    PASSPORT_PHOTO = 'PASSPORT_PHOTO',
+    WAEC_RESULT = 'WAEC_RESULT',
+    WAEC_SCRATCH_CARD = 'WAEC_SCRATCH_CARD',
+    UNOFFICIAL_TRANSCRIPT = 'UNOFFICIAL_TRANSCRIPT',
+    A_LEVEL_RESULT = 'A_LEVEL_RESULT',
+    BACHELOR_DEGREE = 'BACHELOR_DEGREE',
+    MASTER_DEGREE = 'MASTER_DEGREE',
+    OTHERS = 'OTHERS',
+}
