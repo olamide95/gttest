@@ -32,6 +32,7 @@ import { Rooms, RoomsSchema } from './rooms/rooms.schema';
             signOptions: { expiresIn: '1d' },
         }),
         forwardRef(() => AuthModule),
+        
     ],
     controllers: [AdminController],
     providers: [AdminService, LocalStrategy, JwtStrategy],

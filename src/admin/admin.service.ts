@@ -10,6 +10,8 @@ import {
 import { TeamMember, TeamMemberDocument } from './teammember.schema';
 import { TokenHandler } from 'src/common/utils/token-handler';
 import { Rooms, RoomsDocument } from './rooms/rooms.schema';
+import { SettingsService } from './settings/settings.service';
+import { TeamRole } from 'src/common/enums';
 
 @Injectable()
 export class AdminService {
@@ -20,8 +22,9 @@ export class AdminService {
         private readonly teamMemberModel: Model<TeamMemberDocument>,
         @InjectModel(Rooms.name)
         private readonly roomModel: Model<RoomsDocument>,
+        private readonly settingsService: SettingsService,
     ) {}
-
+ 
     async addAdmin(addAdminDto: AddAdminDto) {
         return await this.adminModel.create(addAdminDto);
     }
@@ -31,6 +34,9 @@ export class AdminService {
     }
     async getAdmins() {
         return await this.adminModel.find();
+    }
+    async getSettings() {
+        return await this.settingsService.getSettings();
     }
 
     async getTeamMember(field: string, value: string) {
@@ -119,4 +125,39 @@ export class AdminService {
         await admin.save();
         return { message: 'Password updated successfully' };
     }
+
+    async getTeamMemberWithRole(field: string, value: string) {
+        return await this.teamMemberModel
+            .findOne({ [field]: value })
+            .select('-password')
+            .lean();
+    }
+
+    async checkPermission(adminId: string, permissionKey: string): Promise<boolean> {
+        // Get team member's role
+        const teamMember = await this.teamMemberModel.findOne({ adminId })
+            .select('role')
+            .lean();
+        
+        if (!teamMember) {
+            return false;
+        }
+
+        // Get settings with permissions
+        const settings = await this.settingsService.getSettings();
+        const permissions = settings.schoolProgramPermissions;
+
+        // Check permission based on role
+        switch (teamMember.role) {
+            case TeamRole.ADMIN:
+                return permissions[permissionKey].admin;
+            case TeamRole.MANAGER:
+                return permissions[permissionKey].manager;
+            case TeamRole.STAFF:
+                return permissions[permissionKey].staff;
+            default:
+                return false;
+        }
+    }
 }
+

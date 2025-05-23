@@ -8,6 +8,8 @@ import {
     Patch,
     Query,
     UseGuards,
+    Req,
+    ForbiddenException,
 } from '@nestjs/common';
 import { ApplicationMgmtService } from './application-mgmt.service';
 import { PaginationParams } from 'src/common/dtos';
@@ -25,6 +27,9 @@ import { KeyType } from 'src/common/enums';
 import { KeyGen } from 'src/common/utils/key-gen';
 import { CloudinaryService } from 'src/common/services';
 import { ApplicationNotFoundException } from 'src/common/exceptions';
+import { AdminService } from '../admin.service';
+import { AdminModule } from '../admin.module'; // Add this import
+
 
 @Controller('admin/application-mgmt')
 @UseGuards(JwtAuthGuard)
@@ -32,46 +37,79 @@ export class ApplicationMgmtController {
     constructor(
         private readonly applicationMgmtService: ApplicationMgmtService,
         private readonly cloudinaryService: CloudinaryService,
+        private readonly adminService: AdminService, // Add AdminService
     ) {}
 
+    private async checkPermission(req: any, permissionKey: string) {
+        const user = req.user;
+        const teamMember = await this.adminService.getTeamMember('adminId', user.adminId);
+        
+        if (!teamMember) {
+            throw new ForbiddenException('User not found in team members');
+        }
+ 
+        const settings = await this.adminService.getSettings();
+        const permissions = settings.schoolApplicationPermissions;
+
+        switch (teamMember.role) {
+            case 'ADMIN':
+                if (!permissions[permissionKey].admin) {
+                    throw new ForbiddenException('Insufficient permissions');
+                }
+                break;
+            case 'MANAGER':
+                if (!permissions[permissionKey].manager) {
+                    throw new ForbiddenException('Insufficient permissions');
+                }
+                break;
+            case 'STAFF':
+                if (!permissions[permissionKey].staff) {
+                    throw new ForbiddenException('Insufficient permissions');
+                }
+                break;
+            default:
+                throw new ForbiddenException('Invalid user role');
+        }
+    }
+
     @Get('school-applications')
-    async getSchoolApplications(@Query() paginationParams: PaginationParams) {
+    async getSchoolApplications(@Req() req, @Query() paginationParams: PaginationParams) {
+        await this.checkPermission(req, 'view_school_application');
         return await this.applicationMgmtService.getSchoolApplications(
             paginationParams,
         );
     }
 
     @Get('visa-applications')
-    async getVisaApplications(@Query() paginationParams: PaginationParams) {
+    async getVisaApplications(@Req() req, @Query() paginationParams: PaginationParams) {
+        await this.checkPermission(req, 'view_visa_application');
         return await this.applicationMgmtService.getVisaApplications(
             paginationParams,
         );
     }
 
-    // @Get('book-flights')
-    // async getBookFlihgts(@Query() paginationParams: PaginationParams) {
-    //     return await this.applicationMgmtService.getBookFlights(
-    //         paginationParams,
-    //     );
-    // }
-
     @Get('book-flights')
     async getBookFlihgts(
+        @Req() req,
         @Query() paginationParams: PaginationParams,
     ): Promise<GetBookFlightDto[]> {
+        await this.checkPermission(req, 'view_visa_application'); // Assuming flight booking is part of visa process
         return this.applicationMgmtService.getBookFlights();
     }
 
     @Delete('delete-bookflight/:id')
-    async deleteAccomodation(@Param('id') id: string) {
+    async deleteAccomodation(@Req() req, @Param('id') id: string) {
+        await this.checkPermission(req, 'delete_visa_application');
         return await this.applicationMgmtService.deleteFlightRecord(id);
     }
 
     @Patch('update-bookflight/:id')
     async updateFlightApplication(
+        @Req() req,
         @Param('id') id: string,
-        @Body() updateBookFlightDto: UpdateBookFlightDto, // Use UpdateBookFlightDto here
+        @Body() updateBookFlightDto: UpdateBookFlightDto,
     ) {
+        await this.checkPermission(req, 'edit_visa_application');
         return await this.applicationMgmtService.updateFlightApplication(
             id,
             updateBookFlightDto,
@@ -79,14 +117,16 @@ export class ApplicationMgmtController {
     }
 
     @Get('applications')
-    async getApplications(@Query() paginationParams: PaginationParams) {
+    async getApplications(@Req() req, @Query() paginationParams: PaginationParams) {
+        await this.checkPermission(req, 'view_school_application');
         return await this.applicationMgmtService.getApplications(
             paginationParams,
         );
     }
 
     @Get('visa-applications/stats')
-    async getVisaApplicationStats(@Query() paginationParams: PaginationParams) {
+    async getVisaApplicationStats(@Req() req, @Query() paginationParams: PaginationParams) {
+        await this.checkPermission(req, 'view_visa_application');
         return await this.applicationMgmtService.getVisaApplicationStats(
             paginationParams,
         );
@@ -94,15 +134,18 @@ export class ApplicationMgmtController {
 
     @Get('school-applications/stats')
     async getSchoolApplicationStats(
+        @Req() req,
         @Query() paginationParams: PaginationParams,
     ) {
+        await this.checkPermission(req, 'view_school_application');
         return await this.applicationMgmtService.getSchoolApplicationStats(
             paginationParams,
         );
     }
 
     @Get('applications/stats')
-    async getApplicationStats(@Query() paginationParams: PaginationParams) {
+    async getApplicationStats(@Req() req, @Query() paginationParams: PaginationParams) {
+        await this.checkPermission(req, 'view_school_application');
         return await this.applicationMgmtService.getApplicationStats(
             paginationParams,
         );
@@ -110,8 +153,10 @@ export class ApplicationMgmtController {
 
     @Delete('visa-applications/:visaApplicationId')
     async deleteVisaAplication(
+        @Req() req,
         @Param('visaApplicationId') visaApplicationId: string,
     ) {
+        await this.checkPermission(req, 'delete_visa_application');
         return await this.applicationMgmtService.deleteVisaApplication(
             visaApplicationId,
         );
@@ -119,8 +164,10 @@ export class ApplicationMgmtController {
 
     @Delete('school-applications/:schoolApplicationId')
     async deleteSchoolApplication(
+        @Req() req,
         @Param('schoolApplicationId') schoolApplicationId: string,
     ) {
+        await this.checkPermission(req, 'delete_school_application');
         return await this.applicationMgmtService.deleteSchoolApplication(
             schoolApplicationId,
         );
@@ -128,8 +175,10 @@ export class ApplicationMgmtController {
 
     @Get('school-applications/search')
     async searchSchoolApplication(
+        @Req() req,
         @Query() searchSchoolApplicationDto: SearchApplicationDto,
     ) {
+        await this.checkPermission(req, 'view_school_application');
         return await this.applicationMgmtService.searchApplication(
             searchSchoolApplicationDto,
             ApplicationCategory.SCHOOL_APPLICATION,
@@ -138,8 +187,10 @@ export class ApplicationMgmtController {
 
     @Get('visa-applications/search')
     async searchVisaApplication(
+        @Req() req,
         @Query() searchApplicationDto: SearchApplicationDto,
     ) {
+        await this.checkPermission(req, 'view_visa_application');
         return await this.applicationMgmtService.searchApplication(
             searchApplicationDto,
             ApplicationCategory.VISA_APPLICATION,
@@ -148,9 +199,11 @@ export class ApplicationMgmtController {
 
     @Patch('visa-applications/:visaApplicationId')
     async updateVisaApplication(
+        @Req() req,
         @Param('visaApplicationId') visaApplicationId: string,
         @Body() updateVisaApplicationDto: UpdateVisaApplicationDto,
     ) {
+        await this.checkPermission(req, 'edit_visa_application');
         updateVisaApplicationDto.visaApplicationId = visaApplicationId;
         return await this.applicationMgmtService.updateVisaApplication(
             updateVisaApplicationDto,
@@ -159,119 +212,18 @@ export class ApplicationMgmtController {
 
     @Patch('school-applications/:schoolApplicationId')
     async updateSchoolApplication(
+        @Req() req,
         @Param('schoolApplicationId') schoolApplicationId: string,
         @Body() updateSchoolApplicationDto: UpdateSchoolApplicationDto,
     ) {
-        console.log(
-            '🚀 ~ ApplicationMgmtController ~ updateSchoolApplicationDto:',
-            updateSchoolApplicationDto,
-        );
+        await this.checkPermission(req, 'edit_school_application');
+        
+        console.log('🚀 ~ ApplicationMgmtController ~ updateSchoolApplicationDto:', updateSchoolApplicationDto);
         updateSchoolApplicationDto.schoolApplicationId = schoolApplicationId;
-        console.log(
-            '🚀 ~ ApplicationMgmtController ~ updateSchoolApplicationDto:',
-            updateSchoolApplicationDto,
-        );
+        console.log('🚀 ~ ApplicationMgmtController ~ updateSchoolApplicationDto:', updateSchoolApplicationDto);
 
         return await this.applicationMgmtService.updateSchoolApplication(
             updateSchoolApplicationDto,
         );
-        // if (updateSchoolApplicationDto.suportingDocuments) {
-        //     const files = updateSchoolApplicationDto.suportingDocuments;
-        //     const fields = Object.keys(files);
-        //     if (fields.length > 0) {
-        //         const application =
-        //             await this.applicationMgmtService._getSchoolApplication(
-        //                 schoolApplicationId,
-        //             );
-        //         if (!application) {
-        //             throw ApplicationNotFoundException();
-        //         }
-        //         updateSchoolApplicationDto.suportingDocuments =
-        //             application.suportingDocuments;
-        //         for (const field of fields) {
-        //             if (field == 'others') {
-        //                 if (
-        //                     !updateSchoolApplicationDto.suportingDocuments[
-        //                         field
-        //                     ]
-        //                 ) {
-        //                     updateSchoolApplicationDto.suportingDocuments[
-        //                         field
-        //                     ] = [];
-        //                 }
-        //                 for (let i = 0; i < files[field]?.length || 0; i++) {
-        //                     files[field]?.length;
-        //                     const file: string = files[field]?.[i];
-
-        //                     //gen file name
-        //                     const key = KeyGen.gen(20, KeyType.ALPHANUMERIC);
-
-        //                     const upload =
-        //                         await this.cloudinaryService.uploadMedia(
-        //                             file,
-        //                             SCHOOL_APPLICATION_FILES_DIR,
-        //                             key,
-        //                         );
-
-        //                     updateSchoolApplicationDto.suportingDocuments[
-        //                         field
-        //                     ].push(upload.secure_url);
-        //                 }
-        //             } else {
-        //                 const file: string = files[field]?.[0];
-
-        //                 //gen file name
-        //                 const key = KeyGen.gen(20, KeyType.ALPHANUMERIC);
-
-        //                 const upload = await this.cloudinaryService.uploadMedia(
-        //                     file,
-        //                     SCHOOL_APPLICATION_FILES_DIR,
-        //                     key,
-        //                 );
-
-        //                 updateSchoolApplicationDto.suportingDocuments[field] = {
-        //                     url: upload.secure_url,
-        //                 };
-        //             }
-        //         }
-        //     }
-
-        //     const supportingDocuments =
-        //         updateSchoolApplicationDto.suportingDocuments;
-        //     if (
-        //         !supportingDocuments.passportPhoto ||
-        //         !supportingDocuments.waecResult ||
-        //         !supportingDocuments.unofficialTranscript
-        //     ) {
-        //         throw new BadRequestException(
-        //             'attaching passport-photo, waec-result and unofficial transcript is compulsory',
-        //         );
-        //     }
-        //     updateSchoolApplicationDto.schoolApplicationId =
-        //         schoolApplicationId;
-        //     typeof updateSchoolApplicationDto.contactInformation !==
-        //         undefined &&
-        //     updateSchoolApplicationDto.contactInformation?.isMailingAddress ==
-        //         true
-        //         ? (updateSchoolApplicationDto.contactInformation.mailingAddress =
-        //               null)
-        //         : '';
-        //     updateSchoolApplicationDto.academicInformation?.previousHighSchoolHistory.forEach(
-        //         (value) =>
-        //             value?.hasGraduatedFromInstitution == true
-        //                 ? (value.expectedDateOfGraduation = null)
-        //                 : '',
-        //     );
-        //     updateSchoolApplicationDto.academicInformation?.previousCollegeHistory.forEach(
-        //         (value) =>
-        //             value?.hasGraduatedFromInstitution == true
-        //                 ? (value.expectedDateOfGraduation = null)
-        //                 : '',
-        //     );
-
-        // return await this.applicationMgmtService.updateSchoolApplication(
-        //     updateSchoolApplicationDto,
-        // );
-        // }
     }
 }

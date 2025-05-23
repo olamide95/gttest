@@ -1,7 +1,6 @@
 import { Strategy } from 'passport-local';
 import { PassportStrategy } from '@nestjs/passport';
 import { Injectable } from '@nestjs/common';
-
 import { TokenHandler } from 'src/common/utils/token-handler';
 import { JwtService } from '@nestjs/jwt';
 import { AdminService } from '../admin.service';
@@ -27,8 +26,6 @@ export class LocalStrategy extends PassportStrategy(Strategy) {
         email: string,
         password: string,
     ): Promise<any> {
-        // const [email, deviceToken] = email.split('|');
-
         const admin = await this.adminService.getAdmin(
             'email',
             email.toLocaleLowerCase(),
@@ -42,9 +39,16 @@ export class LocalStrategy extends PassportStrategy(Strategy) {
             throw LoginCredentialsException();
         }
 
+        // Get team member to include role in JWT
+        const teamMember = await this.adminService.getTeamMemberWithRole(
+            'adminId',
+            admin.adminId
+        );
+
         const payload = {
             email: admin.email,
             sub: admin.adminId,
+            role: teamMember?.role, // Include role in JWT payload
         };
 
         const expiresIn = req?.body?.rememberMe == true ? '7d' : '1d';
@@ -53,6 +57,7 @@ export class LocalStrategy extends PassportStrategy(Strategy) {
             adminId: admin.adminId,
             email,
             fullName: admin.fullName,
+            role: teamMember?.role,
             jwt: this.jwtService.sign(payload, { expiresIn }),
         };
     }
